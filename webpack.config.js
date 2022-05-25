@@ -1,7 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3005;
 module.exports = {
   entry: "./src/index.js",
   output: {
