@@ -1,10 +1,13 @@
 import React from "react";
+import ProductList from "../containers/ProductList";
+import Header from "../components/Header";
 
 const Home = () => {
   return (
-    <div>
-      <h1 className="text-red-300">React Shop</h1>
-    </div>
+    <>
+      <Header />
+      <ProductList />
+    </>
   );
 };
 
