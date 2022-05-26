@@ -5,7 +5,7 @@ import Login from "@pages/Login";
 import "@styles/global.css";
 import Home from "@pages/Home";
 import NotFound from "@pages/NotFound";
-import PasswordRecovery from "@/pages/PasswordRecovery";
+import PasswordRecovery from "@pages/PasswordRecovery";
 import SendEmail from "@pages/SendEmail";
 import NewPassword from "@pages/NewPassword";
 import MyAccount from "@pages/MyAccount";
