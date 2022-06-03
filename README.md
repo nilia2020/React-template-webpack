@@ -1,3 +1,3 @@
 # React-shop
 
-Practical react project
+react template project
