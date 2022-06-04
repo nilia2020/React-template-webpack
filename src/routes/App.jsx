@@ -5,6 +5,7 @@ import "@styles/global.css";
 import NotFound from "@pages/NotFound";
 import AppContext from "@context/AppContext";
 import useInitialState from "@hooks/useInitialState";
+import Home from "@pages/Home";
 
 const App = () => {
   const initialState = useInitialState();
@@ -12,6 +13,7 @@ const App = () => {
     <AppContext.Provider value={initialState}>
       <Layout>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
