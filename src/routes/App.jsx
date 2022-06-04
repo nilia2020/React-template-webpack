@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Layout from "@containers/Layout";
-import "@styles/global.css";
+import "/main.css";
 import NotFound from "@pages/NotFound";
 import AppContext from "@context/AppContext";
 import useInitialState from "@hooks/useInitialState";
